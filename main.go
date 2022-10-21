@@ -2,9 +2,6 @@ package main
 
 import (
 	"fmt"
-
-	"go_practise/stock121"
-	"go_practise/twosum"
 	"strings"
 )
 
@@ -13,19 +10,8 @@ func main() {
 	// result := myAtoi(s)
 	// fmt.Println(result)
 
-	// ss := "Hi MD Farhad Hossain. My name is Shova. Actually I know you for a long time. You are not so good whatever I think I am in love with you. Do you accept me if you are interested ?"
 	// mostusedstring.CheckMostUsed(ss)
-	twosum.TwoSumIndex([]int{1, 3, 4, 5}, 7)
 
-	res1 := stock121.Profit([]int{7, 1, 5, 3, 6, 4})
-	res2 := stock121.Profit([]int{2,4,1})
-	res3 := stock121.Profit([]int{2,4,2,1})
-	res4 := stock121.Profit([]int{2,1,2,0,1})
-
-	fmt.Println("Stock121 Input1: ", res1)
-	fmt.Println("Stock121 Input2: ", res2)
-	fmt.Println("Stock121 Input3: ", res3)
-	fmt.Println("Stock121 Input4: ", res4)
 }
 
 func myAtoi(s string) int {
