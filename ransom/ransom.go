@@ -38,7 +38,6 @@ func Ransom(String1, String2 string) string {
 		} else if index1 > index {
 			return "No"
 		}
-		ss[v] = 0
 	}
 
 	return "Yes"
