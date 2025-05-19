@@ -22,7 +22,7 @@ func TestMaxSubArraySum(t *testing.T) {
 			Expected: 1,
 		},
 		{
-			Input:    []int{5,4,-1,7,8},
+			Input:    []int{5, 4, -1, 7, 8},
 			Expected: 23,
 		},
 	}
